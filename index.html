@@ -34,24 +34,12 @@
     arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
   >
     <!-- NFT Marker -->
-    <a-nft
-      type="nft"
-      url="nft/mitutoyo"
-      smooth="true"
-      smoothCount="10"
-      smoothTolerance=".01"
-      smoothThreshold="5"
-    >
-      <!-- 3D Model -->
-      <a-entity
-        gltf-model="models/mitutoyo.glb"
-        scale="5 5 5"
-        position="0 0 0"
-      >
-      </a-entity>
-    </a-nft>
+  <a-nft type="nft" url="nft/mitutoyo">
+  <a-box color="red" scale="50 50 50"></a-box>
+</a-nft>
 
     <a-entity camera></a-entity>
   </a-scene>
 </body>
 </html>
+
